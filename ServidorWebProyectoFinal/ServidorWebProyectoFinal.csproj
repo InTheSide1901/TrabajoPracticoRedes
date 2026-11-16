@@ -20,7 +20,7 @@
     <None Update="sitio_web\index.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="sitio_web\index.js">
+    <None Update="sitio_web\script.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="sitio_web\styles.css">
