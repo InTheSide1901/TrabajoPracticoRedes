@@ -1,0 +1,86 @@
+﻿body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 320px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagen-principal {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background: #fff;
+}
+
+    input:focus {
+        outline: none;
+        border-color: #999;
+    }
+
+button {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #e4e4e4;
+    }
+
+.estado {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+    min-height: 16px;
+}
+
+.enlaces {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
+
+    .enlaces a {
+        color: #666;
+        text-decoration: none;
+    }
+
+        .enlaces a:hover {
+            text-decoration: underline;
+        }
+
+.titulo-form {
+    margin: 0 0 12px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+}
